@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'polls.apps.PollsConfig',
-    'books.apps.BooksConfig',
+    'apps.polls.apps.PollsConfig',
+    'apps.books.apps.BooksConfig',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +53,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'openmind.urls'
+AUTH_USER_MODEL = 'users.User'
 
 TEMPLATES = [
     {
