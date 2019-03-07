@@ -2,8 +2,10 @@ import binascii
 import os
 
 from django.conf import settings
-from django.db import models
 from django.contrib.auth.models import AbstractUser
+from django.db import models
+from django.utils.translation import gettext_lazy as _
+
 
 # Create your models here.
 
@@ -46,11 +48,11 @@ def generate_access_token(device_id, device_type):
 
 
 class User(AbstractUser):
-    username = models.CharField()
-    email = models.EmailField()
+    username = models.CharField(max_length=128)
+    email = models.EmailField(_('email address'), blank=True, null=True, unique=True)
     user_type = models.IntegerField()
     status = models.IntegerField()
-    facebook_id = models.CharField()
+    facebook_id = models.CharField(max_length=128)
     created_at = models.DateTimeField()
     updated_at = models.DateTimeField()
 
@@ -71,7 +73,7 @@ class Token(models.Model):
     key = models.CharField("Key", max_length=128, primary_key=True)
     user = models.ForeignKey(
         settings.AUTH_USER_MODEL, related_name='tokens',
-        on_delete=models.CASCADE, verbose_name="User"
+        on_delete=models.CASCADE, verbose_name=_("User")
     )
     created = models.DateTimeField()
 
@@ -121,17 +123,17 @@ class ConfirmEmailToken(models.Model):
     class Meta:
         db_table = 'confirm_email_token'
 
-        def save(self, *args, **kwargs):
-            if not self.token:
-                self.token = self.generate_confirm_email_token()
-            return super(ConfirmEmailToken, self).save(*args, **kwargs)
+    def save(self, *args, **kwargs):
+        if not self.token:
+            self.token = self.generate_confirm_email_token()
+        return super(ConfirmEmailToken, self).save(*args, **kwargs)
 
-        def generate_confirm_email_token(self):
-            num_bytes = CONFIRM_EMAIL_TOKEN_LENGTH // 2
-            return binascii.hexlify(os.urandom(num_bytes)).decode()
+    def generate_confirm_email_token(self):
+        num_bytes = CONFIRM_EMAIL_TOKEN_LENGTH // 2
+        return binascii.hexlify(os.urandom(num_bytes)).decode()
 
-        def __str__(self):
-            return 'ConfirmEmailToken (user {}): {}'.format(self.user, self.token)
+    def __str__(self):
+        return 'ConfirmEmailToken (user {}): {}'.format(self.user, self.token)
 
 
 class Rating(models.Model):
@@ -169,7 +171,7 @@ class Notification(models.Model):
 class UserNotification(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     notification = models.ForeignKey(
-        Notification, on_delete=models.CASCADE(),
+        Notification, on_delete=models.CASCADE,
         related_name='user_notifications'
     )
     is_read = models.BooleanField(default=False)

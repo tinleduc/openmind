@@ -70,7 +70,7 @@ class Book(models.Model):
     cover_photo = models.TextField()
     thumbnail_photo = models.TextField(default='')
     title = models.CharField(max_length=200)
-    author = models.ForeignKey()
+    author = models.CharField(max_length=128)
     tags = models.TextField()
     content = models.TextField()
     publisher = models.TextField()

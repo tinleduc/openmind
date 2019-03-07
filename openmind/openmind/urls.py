@@ -17,9 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 
+from apps.adminpages import views as admin_views
+
+
 urlpatterns = [
-    path('polls/', include('apps.polls.urls')),
+
     path('books/', include('apps.books.urls')),
     path('admin/', admin.site.urls),
+    # Homepage
+    path('', admin_views.homepage.as_view(), name='homepage'),
 
 ]
