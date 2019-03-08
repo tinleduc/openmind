@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f9236a-f4f0-4f5d-9bdd-08d38d2a4134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/adminpage/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/books/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/books/migrations/0002_auto_20190301_0906.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/books/migrations/0003_auto_20190301_0933.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/books/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/books/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpage/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpage/draft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/polls/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/openmind/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openmind/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/templates/adminpage/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+              <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -288,18 +270,17 @@
       <workItem from="1551757367022" duration="13647000" />
       <workItem from="1551841867667" duration="9562000" />
       <workItem from="1551926868879" duration="8058000" />
-      <workItem from="1551940935655" duration="6339000" />
+      <workItem from="1551940935655" duration="7082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64768000" />
+    <option name="totallyTimeSpent" value="65511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1004" y="25" width="916" height="1055" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22413793" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22413793" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -313,7 +294,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.17710583" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.6133909" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -659,7 +640,7 @@
     <entry file="file://$PROJECT_DIR$/templates/adminpage/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
