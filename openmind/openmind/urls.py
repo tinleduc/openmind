@@ -25,6 +25,8 @@ urlpatterns = [
     path('books/', include('apps.books.urls')),
     path('admin/', admin.site.urls),
     # Homepage
-    path('', admin_views.homepage.as_view(), name='homepage'),
+    path('', admin_views.login.as_view(), name='login'),
+    path('home/', admin_views.home.as_view(), name='home'),
+
 
 ]

@@ -50,11 +50,11 @@ def generate_access_token(device_id, device_type):
 class User(AbstractUser):
     username = models.CharField(max_length=128)
     email = models.EmailField(_('email address'), blank=True, null=True, unique=True)
-    user_type = models.IntegerField()
-    status = models.IntegerField()
+    user_type = models.IntegerField(default=1)
+    status = models.IntegerField(default=1)
     facebook_id = models.CharField(max_length=128)
-    created_at = models.DateTimeField()
-    updated_at = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now_add=True)
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
@@ -75,7 +75,7 @@ class Token(models.Model):
         settings.AUTH_USER_MODEL, related_name='tokens',
         on_delete=models.CASCADE, verbose_name=_("User")
     )
-    created = models.DateTimeField()
+    created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         db_table = 'token'

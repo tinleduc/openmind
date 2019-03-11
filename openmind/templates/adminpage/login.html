@@ -1,0 +1,28 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>
+                OPENMIND | Live your life by your way
+            </title>
+        </head>
+        <body>
+            <div>
+                <header>
+                    <h1>
+                        OPENMIND
+                    </h1>
+                </header>
+            </div>
+            <div>
+                <form role="form" method="POST" action="{% url 'login' %}">
+                    {% csrf_token %}
+                    Your name:
+                    <input type="email" class="form-control" id="id_username" placeholder="Email" name="email"><br>
+                    Password:
+                    <input type="password" class="form-control" id="id_password" placeholder="Password" name="password"><br>
+                    <button type = "submit" class="btn btn-primary btn-block btn-flat"> Sign In</button>
+                </form>
+            </div>
+        </body>
+    </html>

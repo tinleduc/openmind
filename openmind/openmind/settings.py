@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'apps.books.apps.BooksConfig',
     'apps.users.apps.UsersConfig',
+    'apps.core.apps.CoreConfig',
     'apps.adminpages.apps.AdminpagesConfig',
 ]
 
@@ -126,4 +127,18 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
+
+
+# Config pagination
+DEFAULT_PAGE = 1
+DEFAULT_PAGE_SIZE = 10
+
+# AWS Credentials
+AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
+AWS_REGION = os.getenv('AWS_REGION')
+
+AWS_S3_REGION = os.getenv('AWS_S3_REGION')
+AWS_S3_BUCKET_IMAGE = os.getenv('AWS_S3_BUCKET_IMAGE')
+AWS_S3_BUCKET_STREAMING = os.getenv('AWS_S3_BUCKET_STREAMING')
 

@@ -3,87 +3,6 @@ from django.db import models
 # Create your models here.
 
 
-class Author(models.Model):
-    name = models.TextField()
-    tags = models.TextField(default='', blank=True)
-    desc = models.TextField()
-    avatar = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        db_table = 'author'
-
-
-class Publisher(models.Model):
-    name = models.TextField()
-    desc = models.TextField()
-    avatar = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        db_table = 'publisher'
-
-
-class BookSet(models.Model):
-    title = models.TextField()
-    tags = models.TextField(default='', blank=True)
-    desc = models.TextField(default='', blank=True)
-    cover_photo = models.TextField()
-    thumbnail_photo = models.TextField()
-    price = models.IntegerField(default=0)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        db_table = 'book_set'
-
-
-class Collection(models.Model):
-    title = models.TextField()
-    tags = models.TextField(default='', blank=True)
-    desc = models.TextField(default='', blank=True)
-    cover_photo = models.TextField()
-    thumbnail_photo = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        db_table = 'collection'
-
-
-class Category(models.Model):
-    title = models.TextField()
-    tags = models.TextField(default='', blank=True)
-    desc = models.TextField(default='', blank=True)
-    cover_photo = models.TextField()
-    thumbnail_photo = models.TextField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        db_table = 'category'
-
-
-class Book(models.Model):
-    cover_photo = models.TextField()
-    thumbnail_photo = models.TextField(default='')
-    title = models.CharField(max_length=200)
-    author = models.CharField(max_length=128)
-    tags = models.TextField()
-    content = models.TextField()
-    publisher = models.TextField()
-    publisher_photo = models.TextField(null=True, default=None)
-    year_published = models.DateField()
-    price = models.IntegerField(default=0)
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.book
-
-
 class MediaFile(models.Model):
     AUDIO = 'audio'
     IMAGE = 'image'
@@ -101,6 +20,166 @@ class MediaFile(models.Model):
 
     class Meta:
         db_table = 'media_file'
+
+
+class Author(models.Model):
+    author_name = models.TextField()
+    tags = models.TextField(default='', blank=True)
+    desc = models.TextField()
+    cover_photo = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'author'
+        ordering = ['created_at']
+
+
+class Publisher(models.Model):
+    publisher_name = models.TextField()
+    desc = models.TextField()
+    cover_photo = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'publisher'
+        ordering = ['created_at']
+
+
+class BookSet(models.Model):
+    set_title = models.TextField()
+    tags = models.TextField(default='', blank=True)
+    desc = models.TextField(default='', blank=True)
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    price = models.IntegerField(default=0)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'book_set'
+        ordering = ['created_at']
+
+
+class Collection(models.Model):
+    collection_title = models.TextField()
+    tags = models.TextField(default='', blank=True)
+    desc = models.TextField(default='', blank=True)
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'collection'
+        ordering = ['created_at']
+
+
+class Category(models.Model):
+    category_title = models.TextField()
+    tags = models.TextField(default='', blank=True)
+    desc = models.TextField(default='', blank=True)
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'category'
+
+
+class YearPublished(models.Model):
+    year = models.IntegerField()
+    tags = models.TextField(default='', blank=True)
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'year'
+
+
+class Book(models.Model):
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    book_title = models.CharField(max_length=200)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    tags = models.TextField()
+    content = models.TextField()
+    publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
+    year_published = models.ForeignKey(YearPublished, on_delete=models.CASCADE)
+    price = models.IntegerField(default=0)
+    image_file = models.TextField()
+    audio_file = models.TextField()
+    video_file = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'book'
+        ordering = ['created_at']
+
+
+class Story(models.Model):
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    story_title = models.CharField(max_length=200)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    tags = models.TextField()
+    content = models.TextField()
+    publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
+    year_published = models.ForeignKey(YearPublished, on_delete=models.CASCADE)
+    book_related = models.ForeignKey(Book, on_delete=models.CASCADE)
+    image_file = models.TextField()
+    audio_file = models.TextField()
+    video_file = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'story'
+        ordering = ['created_at']
+
+
+class Quote(models.Model):
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    quote_title = models.CharField(max_length=200)
+    author = models.ForeignKey(Author, on_delete=models.CASCADE)
+    tags = models.TextField()
+    content = models.TextField()
+    publisher = models.ForeignKey(Publisher, on_delete=models.CASCADE)
+    book_related = models.ForeignKey(Book, on_delete=models.CASCADE)
+    image_file = models.TextField()
+    audio_file = models.TextField()
+    video_file = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'quotes'
+        ordering = ['created_at']
+
+
+class Event(models.Model):
+    cover_photo = models.TextField()
+    thumbnail_photo = models.TextField()
+    event_name = models.CharField(max_length=200)
+    tags = models.TextField()
+    content = models.TextField()
+    start_date = models.DateTimeField()
+    end_date = models.DateTimeField()
+    address = models.TextField()
+    book_related = models.ForeignKey(Book, on_delete=models.CASCADE)
+    image_file = models.TextField()
+    audio_file = models.TextField()
+    video_file = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        db_table = 'event'
+        ordering = ['created_at']
 
 
 class BookCategory(models.Model):
