@@ -25,8 +25,12 @@ urlpatterns = [
     path('books/', include('apps.books.urls')),
     path('admin/', admin.site.urls),
     # Homepage
-    path('', admin_views.login.as_view(), name='login'),
-    path('home/', admin_views.home.as_view(), name='home'),
+    path('login/', admin_views.LoginForm.as_view(), name='login'),
+    path('home/', admin_views.Home.as_view(), name='home'),
+
+    # Content
+    path('books/homosapiens.html', admin_views.HomoSapiens.as_view(), name='homosapiens'),
+    path('home/', admin_views.Home.as_view(), name='home'),
 
 
 ]
