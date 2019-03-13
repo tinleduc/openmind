@@ -1,0 +1,32 @@
+Requests and Responses
+
+Request obects
+
+Passing additional data to callback functions
+Using errbacks to catch exception in request processing
+
+Request.meta special keys
+
+binaddress
+download_timeout
+download_latency
+download_fail_on_dataloss
+max_retry_times
+
+
+Request subclasses
+	FormRequest objects
+	Request usage examples
+		Using FormRequest to send data via HTTP POST
+		Using FormRequest.form_response() to simulated a user login
+
+Response objects
+Response subclasses
+	TextResponse objects
+	HtmlResponse objects
+	XmlResponse objects
+
+
+
+
+

@@ -1,7 +1,7 @@
-import scrapy
+from scrapy import Spider
 
 
-class QuotesSpider(scrapy.Spider):
+class QuotesSpider(Spider):
     name = "quotes"
 
     def start_requests(self):

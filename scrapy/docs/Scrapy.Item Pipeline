@@ -1,0 +1,19 @@
+Item Pipeline
+
+Writing your own item pipeline
+
+	process_item
+	open_spider
+	closed_spider
+	from_crawler
+
+
+Item Pipeline example
+
+Price calidation and dropping items with no prices
+Write items to a JSON file
+Write items to MongoDB
+Take screenshot of item
+Duplicates filter
+
+Activating an Item Pipeline componen

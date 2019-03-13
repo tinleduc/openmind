@@ -1,0 +1,233 @@
+Install Scrapy
+
+Create a new Scrapy project
+
+Writing a spider to crawl a site and extract data
+
+Exporting the scraped data using the command line
+ 
+Changing spider to recursively follow link
+
+Using sider arguments
+
+
+Creating a project
+
+Command: 	scrapy startproject tutorial
+
+First Spider - must subclass scrapy.Spider
+
+
+import scrapy
+
+
+class QuotesSpider(scrapy.Spider):
+    name = "quotes" # identifies
+
+    def start_requests(self): # return an iterable of Requests
+        urls = [
+            'http://quotes.toscrape.com/page/1/',
+            'http://quotes.toscrape.com/page/2/',
+        ]
+        for url in urls:
+            yield scrapy.Request(url=url, callback=self.parse)
+
+    def parse(self, response): # called to handle the response downloaded for each of the requests made.
+        page = response.url.split("/")[-2]
+        filename = 'quotes-%s.html' % page
+        with open(filename, 'wb') as f:
+            f.write(response.body)
+        self.log('Saved file %s' % filename)
+
+
+Run our spider
+
+scrapy crawl quotes # runs the spider with name quotes
+
+What happend
+
+1/ Scrapy schedules the scrapy.Request objects returned by the start_requests method of the Spider. Upon receiving a response for each one, it instantiates Response object and calls the callback method associated with the request
+
+A shortcut to the start_requests method
+
+Instead of implementing a start_request() method that generates scrapy.Request objects from URLs start_urls
+
+import scrapy
+
+class QuotesSpider(scrapy.Spider):
+	name = "quotes"
+	start_urls = [
+			'http://quotes.toscrape.com/page/1/',
+		        'http://quotes.toscrape.com/page/2/',
+			]
+	def parse():
+		#
+
+Extracting data:
+
+XPath: a brief intro
+
+Extracting quotes and authors
+
+Extracting data in our spider
+
+Storing the scrapy data
+
+Following links
+
+A shortcut for creating Requests
+
+More examples and patterns
+
+Using spider arguments
+
+
+Next steps
+
+
+
+Examples
+
+
+Command line tool
+
+Configuration settings
+
+Default structure of scrapy projects
+
+Sharing th root directory between projects
+
+Using the scrapy tool
+
+Creating projects
+
+Controlling projects
+
+Available tool commands
+
+	Start project
+	genspider
+	crawl
+	check
+	list
+	edit 
+	fetch
+	view
+	shell
+	parse
+	settings
+	runspider
+	version
+	bench
+Custom project command
+COMMAND_MODULE
+
+
+Spiders
+
+scrapy.Spider
+class scrapy.spiders.Spider
+
+name
+allowed_domains
+
+start_urls
+
+custom_settings
+
+crawler
+
+settings
+
+logger
+
+from_crawler
+
+start_request()
+
+parse
+
+log
+
+closed
+
+
+Spider arguments
+
+Generic spiders
+
+CrawlerSpider
+
+Class scrapy.spiders.CrawlSpider
+
+rules
+parse_start_url
+
+Crawling rules
+
+class scrapy.spiders.Rule
+
+
+CrawlSpider example
+
+XML Feedspider
+
+	iterator
+	itertag
+	namespaces
+	adapt_respones
+	parse_mode
+	process_results	
+	
+XMLFeedSpider example
+
+CSVFeedSpider
+
+class scrapy.spiders.CSVFeedSpider
+
+delimiter
+quotechar
+headers
+
+parse_row
+
+CSVFeedSpider example
+
+
+SitemapSpider
+
+sitemaps_urls
+
+sitemap_rules
+
+sitemap_follow
+
+sitemap_alternate_links
+
+sitemap_filter
+
+
+SitemapSpider examples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

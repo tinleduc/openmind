@@ -1,0 +1,50 @@
+Item Loaders
+
+
+Using Item Loaders to populate items
+
+
+Input and Output processors
+
+
+Declaring Item Loader
+
+
+Declaring Input and Output Processors
+
+
+Item Loader Context
+
+ItemLoader objects
+Class scrapy.loader.Itemloader
+	get_value	
+	add_value
+	replace_value
+	get_xpath
+	add_xpath
+	replace_xpath
+	get_css
+	add_css
+	replace_css
+	load_item()
+	nested_xpath()
+	nested_css()
+	get_collected_values()
+	get_output_values()
+	get_input_processor()
+	item
+	context
+	default_item_class
+	default_input_processor
+	default_ouput_processor
+	default_select_class
+	selector
+
+Nested Loaders
+
+Reusing and extending Item Loaders
+
+Available bult-in processors
+
+
+

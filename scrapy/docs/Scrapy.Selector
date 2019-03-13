@@ -1,0 +1,67 @@
+Selectors
+
+Using selectors
+
+Constructing selectors
+
+Using selectors
+
+Extensions to CSS Selectors
+
+Nesting selectors
+
+
+Selecting element attributes
+
+
+Using selector with regular expressions
+
+
+extract() and extract_first()
+
+Working with XPaths
+
+
+Working with relative XPaths
+
+When querying by class, consider using CSS
+
+Beware of difference between //node[1] and (//node)[1]
+
+
+Using text nodes in a condition
+
+
+Variables in XPath expressions
+
+Removing namespaces
+
+Regular expressions
+
+
+Set operations
+
+Other XPath extensions
+
+
+parsels.xpathfuncs.set_xpathfunc
+
+Built-in Selectors reference
+
+Selector objects
+
+
+
+SelectorList Objects
+
+
+Example
+
+Selector example on HTML response
+
+Selectot example on XML response
+
+
+
+
+
