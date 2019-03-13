@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f9236a-f4f0-4f5d-9bdd-08d38d2a4134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/adminpages/includes/show_messages.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adminpages/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/books/homosapiens.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/adminpages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adminpages/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/core/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openmind/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openmind/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminpage/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminpage/draft.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/draft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminpage/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminpage/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/.idea/scrapy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/spiders/quotes_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/tutorial/tutorial/spiders/quotes_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,38 +34,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/openmind/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/appsnew/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apps/appsnew/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -168,9 +131,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="887" />
-    <option name="y" value="25" />
-    <option name="width" value="1033" />
+    <option name="x" value="994" />
+    <option name="y" value="27" />
+    <option name="width" value="906" />
     <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -179,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,33 +150,16 @@
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
               <item name="openmind" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="appsnew" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scrapy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -290,11 +237,13 @@
       <workItem from="1552303195218" duration="140000" />
       <workItem from="1552359286858" duration="13534000" />
       <workItem from="1552381870767" duration="17000" />
+      <workItem from="1552387709544" duration="293000" />
+      <workItem from="1552442123739" duration="1965000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111108000" />
+    <option name="totallyTimeSpent" value="113366000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -306,9 +255,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="887" y="25" width="1033" height="1053" extended-state="4" />
+    <frame x="994" y="27" width="906" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.2745694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.322093" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.1317919" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,8 +270,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50110865" side_tool="true" weight="0.18290043" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49889135" visible="true" weight="0.26406926" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025853" side_tool="true" weight="0.26298702" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49741468" visible="true" weight="0.26298702" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32900432" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32937366" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -705,7 +654,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/appsnew/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="180">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
