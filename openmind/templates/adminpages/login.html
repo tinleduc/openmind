@@ -1,90 +1,36 @@
+{% extends 'adminpages/base.html' %}
 {% load staticfiles %}
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title> OPEN MIND</title>
-      <!-- Tell the browser to be responsive to screen width -->
-      <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-{#      <link rel="stylesheet" href="{% static 'adminpages/bower_components/bootstrap/dist/css/bootstrap.min.css' %}">#}
-{#      <!-- Font Awesome -->#}
-{#      <link rel="stylesheet" href="{% static 'adminpages/bower_components/font-awesome/css/font-awesome.min.css' %}">#}
-{#      <!-- Ionicons -->#}
-{#      <link rel="stylesheet" href="{% static 'adminpages/bower_components/Ionicons/css/ionicons.min.css' %}">#}
-{#      <!-- Theme style -->#}
-{#      <link rel="stylesheet" href="{% static 'adminpages/dist/css/AdminLTE.min.css' %}">#}
-{#      <!-- AdminLTE Skins. We have chosen the skin-blue for this starter#}
-{#         page. However, you can choose any other skin. Make sure you#}
-{#         apply the skin class to the body tag so the changes take effect. -->#}
-{#      <link rel="stylesheet" href="{% static 'adminpages/dist/css/skins/skin-blue.min.css' %}">#}
-{#      <![endif]-->#}
-      <!-- Google Font -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
-      {% block custom_css %}{% endblock %}
-   </head>
-{#   <body class="hold-transition login-page">#}
-   <body>
-{#      <div class="wrapper">#}
-      <div>
-         <!-- Main content -->
-{#         <section class="content">#}
-         <section>
-{#            <div class="login-box">#}
-            <div>
-{#               <div class="login-logo">#}
-               <div>
-                  <a href="/"><b>OPEN</b>MIND</a>
-               </div>
-               <!-- /.login-logo -->
-{#               <div class="login-box-body">#}
-               <div>
-{#                  <p class="login-box-msg">Sign in to start</p>#}
-                  <p>Sign in to start</p>
-                  <form role="form" method="POST" action="{% url 'login' %}">
-                     {% include './includes/show_messages.html' %}
-                     {% for error in form.non_field_errors %}
-                     <p class="text-danger">{{ error }}</p>
-                     {% endfor %}
-                     {% csrf_token %}
-                     <div class="form-group has-feedback">
-                        <input type="email" class="form-control" id="id_username" placeholder="Email" name="email">
-                        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-                        {% for error in form.email.errors %}
-                        <span class="text-danger">{{ error }}</span>
-                        {% endfor %}
-                     </div>
-                     <div class="form-group has-feedback">
-                        <input type="password" class="form-control" id="id_password" placeholder="Password" name="password">
-                        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-                        {% for error in form.password.errors %}
-                        <span class="text-danger">{{ error }}</span>
-                        {% endfor %}
-                     </div>
-                     <div class="row">
-                        <!-- /.col -->
-                        <div class="col-xs-4">
-                           <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
-                        </div>
-                        <!-- /.col -->
-                     </div>
-                  </form>
+{% block page_header %}
 
-               </div>
-               <!-- /.login-box-body -->
+   <head>
+      <title> OPEN MIND</title>
+   </head>
+
+{% endblock %}
+
+ {% block content %}
+
+<body>
+   <div>
+      <a href="/"><b>OPEN</b>MIND</a>
+   </div>
+   <div>
+      <p>Sign in to start</p>
+      <form role="form" method="POST" action="{% url 'login' %}">
+         {% csrf_token %}
+         <div>
+            <input type="email" class="form-control" id="id_username" placeholder="Email" name="email">
+         </div>
+         <div>
+            <input type="password" class="form-control" id="id_password" placeholder="Password" name="password">
+         </div>
+         <div class="row">
+            <div class="col-xs-4">
+               <button type="submit" class="btn btn-primary btn-block btn-flat">Sign In</button>
             </div>
-         </section>
-         <!-- /.content -->
-      </div>
-{#      <!-- ./wrapper -->#}
-{#      <!-- REQUIRED JS SCRIPTS -->#}
-{#      <!-- Bootstrap 3.3.7 -->#}
-{#      <script src="{% static 'adminpages/bower_components/bootstrap/dist/js/bootstrap.min.js' %}"></script>#}
-{#      <!-- AdminLTE App -->#}
-{#      <script src="{% static 'adminpages/dist/js/adminlte.min.js' %}"></script>#}
-{#      <!-- Optionally, you can add Slimscroll and FastClick plugins.#}
-{#         Both of these plugins are recommended to enhance the#}
-{#         user experience. -->#}
-      {% block custom_js %}{% endblock %}
-   </body>
-</html>
+         </div>
+      </form>
+   </div>
+</body>
+
+{% endblock %}

@@ -25,12 +25,14 @@ urlpatterns = [
     path('books/', include('apps.books.urls')),
     path('admin/', admin.site.urls),
     # Homepage
-    path('login/', admin_views.LoginForm.as_view(), name='login'),
-    path('home/', admin_views.Home.as_view(), name='home'),
+    path('', admin_views.Home.as_view()),
+    path('base/', admin_views.Base.as_view()),
+    path('content/', admin_views.Content.as_view()),
+    path('login/', admin_views.LoginView.as_view(), name='login'),
 
     # Content
-    path('books/homosapiens.html', admin_views.HomoSapiens.as_view(), name='homosapiens'),
-    path('home/', admin_views.Home.as_view(), name='home'),
+    path('books/homosapiens/', admin_views.HomoSapiens.as_view(), name='homosapiens'),
+    path('books/map/', admin_views.Map.as_view(), name='map'),
 
 
 ]

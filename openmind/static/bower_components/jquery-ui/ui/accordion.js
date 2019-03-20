@@ -109,7 +109,7 @@ return $.widget( "ui.accordion", {
 	_destroy: function() {
 		var contents;
 
-		// clean up main element
+		// clean up scrapy-django element
 		this.element
 			.removeClass( "ui-accordion ui-widget ui-helper-reset" )
 			.removeAttr( "role" );

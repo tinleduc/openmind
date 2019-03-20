@@ -1,22 +1,18 @@
 <!DOCTYPE html>
 <html lang="vi">
-{% block page_header %}
     <div class="content">
         <p class="text-size-4 text-center">
             OPENMIND
         </p>
     </div>
-    <div class="image-with-cap">
-        <img src="/static/image/home.jpeg">
-        <p class="text-size-1 text-center cap"> Hai chú mèo mèo hoang đang tản bộ ở đảo Sanagishima(cat) Island (Kagawa, Japan). Đây được coi như thiên đường cho những người yêu mèo.</p>
+    <a href="/login/">Sign In
+    </a>
+    <div>
+        <button type="button" onclick=>Sign Up</button>
     </div>
-{% endblock %}
 
 <nav class="w3-container menu">
     <ul>
-        <li class="icon_social">
-            <a href="http://tramdoc.vn" target="_blank"><i class="fa fa-home" aria-hidden="true" style="color: #231f20;font-size: 16px;"></i></a>
-        </li>
         <li>
             <a href="/tom-tat-sach"><i class=""></i>Đọc lướt</a>
         </li>
@@ -70,8 +66,6 @@
         <li>
             <a href="/toi-doc-gi"><i class="icon-new"></i>Tôi đọc gì</a>
         </li>
-        <li class="icon_social"><a href="https://www.facebook.com/tramdocvn/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="color: #286090"></i></a></li>
-        <li class="icon_social"><a href="/rss.html" target="_blank"><i class="fa fa-rss" aria-hidden="true" style="color: #ff9933;"></i></a></li>
     </ul>
 </nav>
 
@@ -79,13 +73,6 @@
 <div class="clear"></div>
 
 <div class="w3-container-fluid" id="border-bottom-menu"></div>
-
-<!-- ======= Button lên đầu trang ======= -->
-{#<div class="scrollTop">#}
-{#    <a href="javascript:void(0)" id="btn-top">#}
-{#        <img src="/themes/test_desktop/images/arrow_top_icon.png">#}
-{#    </a>#}
-{#</div>#}
 
 <div class="clear"></div>
     <div class="w3-container content">
@@ -95,12 +82,12 @@
                 <div class="skitter skitter-themed skitter-clean">
                     <ul>
                         <li>
-                            <a href="http://tramdoc.vn/tin-tuc/sapiens-luoc-su-loai-nguoi-buoc-di-trong-vo-dinh-nmg8yW.html" target="_blank">
+                            <a href="/books/homosapiens/" target="_blank">
                                 <img src="http://300b5338.vws.vegacdn.vn/image/img.news/0/0/0/4669.jpg?v=1&w=480&h=295&nocache=1" class="cut" alt=""Sapiens: Lược sử loài người": Bước đi trong vô định"/>
                             </a>
                                 <div class="label_text">
                                     <div id="news_intro">
-                                        <div id="news_title"><a href="http://tramdoc.vn/tin-tuc/sapiens-luoc-su-loai-nguoi-buoc-di-trong-vo-dinh-nmg8yW.html">"Sapiens: Lược sử loài người": Bước đi trong vô định</a></div>
+                                        <div id="news_title"><a href="books/homosapiens/">"Sapiens: Lược sử loài người": Bước đi trong vô định</a></div>
                                         <div id="news_brief">Một hành trình đi xuyên suốt toàn bộ lịch sử của loài người, Homo Sapiens, được gói gọn trong 500 trang sách.  Nhưng...</div>
                                         <div id="news_info">
                                             <span id="news_time">06.03.2019</span>

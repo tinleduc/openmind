@@ -3,7 +3,7 @@
  * @constructor
  * @param {Object} params Parameters to initialize map with.
  * @param {Number} params.maxLevel Maximum number of levels user can go through
- * @param {Object} params.main Config of the main map. See <a href="./jvm-map/">jvm.Map</a> for more information.
+ * @param {Object} params.scrapy-django Config of the scrapy-django map. See <a href="./jvm-map/">jvm.Map</a> for more information.
  * @param {Function} params.mapNameByCode Function go generate map name by region code. Default value is:
 <pre>
 function(code, multiMap) {

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Noticia+Text');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+head {
+    position: absolute;
+    background-color: grey;
+    top: 0;
+    padding: 0.5em;
+}
+
+header {
+    width: 100%;
+    background-color: blue;
+    top: 0;
+    padding: 0.5em;
+    text-align: center;
+}
+
+header div {
+    display: inline-block;
+}
+
+header div p{
+    display: inline-block;
+}
+
+nav {
+    background-color: green;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li:hover{
+    background-color:orange;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+
+mainContent {
+    background: red;
+    color: white;
+    float: left;
+    padding: 1em;
+}
+
+.w3-container-fluid {
+	width: 100%;
+}
+
+.home-top-container {
+	width: 1020px;
+	margin: auto;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+}
+/*chia cột thành 3 phần và làm nó trên cùng một hàng*/
+
+bookset {
+	margin-top: 20px;
+	border-top: 1px solid #333;
+	padding-top: 20px;
+}
+
+
+.hr {
+    border-top: 1px solid #333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer{
+    width: 100%;
+    background: blue;
+    color: white;
+    bottom: 0;
+    padding: 0.8em;
+    text-align: center;
+}

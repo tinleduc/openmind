@@ -1,13 +1,32 @@
 Overview
+needs a convenient way to generate HTML dynamically
+The most common approach relies on templates
 
-Language overview
+A Django project can ve configured with one or several template engines
 
-Built-in tags and filters
+Django defines a standard API for loading and rendering templates regardless of the backend
 
-Humanization
+The Django template language is Django'own template system
 
-Template API 
+For historical reasons both the generic support for template engines and the implementation of the Django template language live in the django.template namespace
 
-Custom tags and filters
+
+Configuration
+
+    TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            # ... some options here ...
+        },
+    },
+]
+
+DIRS defines a list of directories where the engine should look for template source files in search order
+
+APP_DIRS tell where engine should look for templates inside installed applications
+
 
 

@@ -471,7 +471,7 @@ return $.widget( "ui.dialog", {
 				props;
 			// Default to a non-submitting button
 			props = $.extend( { type: "button" }, props );
-			// Change the context for the click callback to be the main element
+			// Change the context for the click callback to be the scrapy-django element
 			click = props.click;
 			props.click = function() {
 				click.apply( that.element[ 0 ], arguments );

@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Noticia+Text');
 
-body{
-    padding: 0;
-    margin: 0;
-    font-family: noticia text, Arial;
-    font-size: 90%;
-    line-height: 1.5;
-}
-
-
-
 .chu-to {
     font-size: 3rem;
 }

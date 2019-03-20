@@ -208,11 +208,11 @@ module.exports = function(grunt){
     require('time-grunt')(grunt);
 
     // JS distribution task.
-    grunt.registerTask('dist-js', ['concat', 'uglify:main', 'uglify:locales', 'usebanner:js']);
+    grunt.registerTask('dist-js', ['concat', 'uglify:scrapy-django', 'uglify:locales', 'usebanner:js']);
 
     // CSS distribution task.
     grunt.registerTask('less-compile', 'less');
-    grunt.registerTask('dist-css', ['less-compile', 'cssmin:main', 'cssmin:standalone', 'usebanner:css']);
+    grunt.registerTask('dist-css', ['less-compile', 'cssmin:scrapy-django', 'cssmin:standalone', 'usebanner:css']);
 
     // Full distribution task.
     grunt.registerTask('dist', ['clean:dist', 'dist-js', 'dist-css']);
@@ -220,7 +220,7 @@ module.exports = function(grunt){
     // Code check tasks.
     grunt.registerTask('lint-js', 'Lint all js files with jshint and jscs', ['jshint', 'jscs']);
     grunt.registerTask('lint-css', 'Lint all css files', ['dist-css', 'csslint:dist']);
-    grunt.registerTask('qunit-all', 'Run qunit tests', ['qunit:main', 'qunit-timezone']);
+    grunt.registerTask('qunit-all', 'Run qunit tests', ['qunit:scrapy-django', 'qunit-timezone']);
     grunt.registerTask('test', 'Lint files and run unit tests', ['lint-js', /*'lint-css',*/ 'qunit-all']);
 
     // Version numbering task.

@@ -538,13 +538,13 @@ throw new Error('AdminLTE requires jQuery')
     wrapper       : '.wrapper',
     contentWrapper: '.content-wrapper',
     layoutBoxed   : '.layout-boxed',
-    mainFooter    : '.main-footer',
-    mainHeader    : '.main-header',
+    mainFooter    : '.scrapy-django-footer',
+    mainHeader    : '.scrapy-django-header',
     sidebar       : '.sidebar',
     controlSidebar: '.control-sidebar',
     fixed         : '.fixed',
     sidebarMenu   : '.sidebar-menu',
-    logo          : '.main-header .logo'
+    logo          : '.scrapy-django-header .logo'
   };
 
   var ClassName = {
@@ -717,7 +717,7 @@ throw new Error('AdminLTE requires jQuery')
   var Selector = {
     collapsed     : '.sidebar-collapse',
     open          : '.sidebar-open',
-    mainSidebar   : '.main-sidebar',
+    mainSidebar   : '.scrapy-django-sidebar',
     contentWrapper: '.content-wrapper',
     searchInput   : '.sidebar-form .form-control',
     button        : '[data-toggle="push-menu"]',

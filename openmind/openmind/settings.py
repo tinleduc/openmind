@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'apps.core.apps.CoreConfig',
     'apps.adminpages.apps.AdminpagesConfig',
     'apps.appsnew.apps.AppsnewConfig',
+    'scrapy-django.apps.MainConfig',
 ]
 
 MIDDLEWARE = [

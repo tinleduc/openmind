@@ -59,7 +59,7 @@ return $.effects.effect.explode = function( o, done ) {
 			left = offset.left + j * width;
 			mx = j - ( cells - 1 ) / 2 ;
 
-			// Create a clone of the now hidden main element that will be absolute positioned
+			// Create a clone of the now hidden scrapy-django element that will be absolute positioned
 			// within a wrapper div off the -left and -top equal to size of our pieces
 			el
 				.clone()
