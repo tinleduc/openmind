@@ -25,10 +25,15 @@ urlpatterns = [
     path('books/', include('apps.books.urls')),
     path('admin/', admin.site.urls),
     # Homepage
-    path('', admin_views.Home.as_view()),
-    path('base/', admin_views.Base.as_view()),
-    path('content/', admin_views.Content.as_view()),
+    path('', admin_views.Homepage.as_view()),
+    path('home/', admin_views.Homepage.as_view()),
     path('login/', admin_views.LoginView.as_view(), name='login'),
+    path('logout/', admin_views.logout_view, name='logout'),
+
+    path('base/', admin_views.Base.as_view()),
+    path('draft/', admin_views.Draft.as_view()),
+    path('content/', admin_views.Content.as_view()),
+
 
     # Content
     path('books/homosapiens/', admin_views.HomoSapiens.as_view(), name='homosapiens'),
@@ -36,3 +41,6 @@ urlpatterns = [
 
 
 ]
+
+
+

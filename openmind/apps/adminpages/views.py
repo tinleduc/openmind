@@ -8,45 +8,18 @@ from django.contrib.auth import authenticate, login, logout
 # Create your views here.
 
 
-# class LoginView(FormView):
-#     template_name = 'adminpages/login.html'
-#     form_class = LoginForm
-#
-#     def get(self, request, *args, **kwargs):
-#         if request.user.is_authenticated:
-#             # User authenticated
-#             return redirect('/books')
-#         return render(self.request, 'adminpages/login.html')
-#
-#     def form_valid(self, form):
-#         email = form.cleaned_data['email']
-#         password = form.cleaned_data['password']
-#         user = authenticate(self.request, email=email, password=password)
-#
-#         if user is None:
-#             form.add_error(None, ValidationError('The username or password is incorrect'))
-#             return self.form_valid(form)
-#
-#         login(self.request, user)
-#         # Redirect to a success page
-#
-#         return redirect('/books')
-#
-#
-# def logout_view(request):
-#     logout(request)
-#     # Redirect to a success page.
-#     return redirect('/homepage')
+class Homepage(TemplateView):
+    template_name = 'adminpages/homepage.html'
 
 
 class LoginView(FormView):
-    template_name = 'adminpage/login.html'
+    template_name = 'adminpages/login.html'
     form_class = LoginForm
 
     def get(self, request, *args, **kwargs):
         if request.user.is_authenticated:
             # User authenticated
-            return redirect('/books')
+            return redirect('/home')
         return render(self.request, 'adminpages/login.html')
 
     def form_valid(self, form):
@@ -60,21 +33,21 @@ class LoginView(FormView):
 
         login(self.request, user)
         # Redirect to a success page.
-        return redirect('/books')
+        return redirect('/home')
 
 
 def logout_view(request):
     logout(request)
     # Redirect to a success page.
-    return redirect('/login')
-
-
-class Home(TemplateView):
-    template_name = 'adminpages/home.html'
+    return redirect('/home')
 
 
 class Base(TemplateView):
     template_name = 'adminpages/base.html'
+
+
+class Draft(TemplateView):
+    template_name = 'adminpages/draft.html'
 
 
 class Content(TemplateView):

@@ -20,6 +20,7 @@
             <button>Sign Up</button>
         </div>
     </header>
+    {% block content %}
     <body>
         <section>
             <nav  class="nav" >
@@ -51,39 +52,24 @@
                 </ul>
             </nav>
         </section>
-        <div>
-            <!-- Content Header (Page header) -->
+    <!-- Content Header (Page header) -->
+        <div >
             <section>
-
-                <article>
-                    Danh sach sach moi
-                </article>
+                <article id="bookset">Danh sach sach moi</article>
                 <div class="hr"> </div>
-                <article class="bookset">
-                    Danh sach bookset
-                </article>
+                <article id="bookset">Danh sach bookset</article>
                 <div class="hr"> </div>
-                <article>
-                    Danh sach bookcollection
-                </article>
+                <article  id="bookset">Danh sach bookcollection</article">
                  <div class="hr"> </div>
-                <article>
-                    Danh sach bookstory
-                </article>
+                <article id="bookset">Danh sach bookstory</article>
                  <div class="hr"> </div>
-                <article>
-                    Danh sach author
-                </article>
+                <article id="bookset">Danh sach author</article>
                  <div class="hr"> </div>
-                <article>
-                    Danh sach quotes
-                </article>
+                <article id="bookset">Danh sach quotes</article>
             </section>
-
-            <!-- Navigation -->
-            <!-- Main content -->
         </div>
     </body>
+    {% endblock content %}
      <!-- Main Footer -->
     <footer class="footer">
         <!-- To the right -->

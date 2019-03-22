@@ -2,114 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52f9236a-f4f0-4f5d-9bdd-08d38d2a4134" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django.template.Built-in-tags-and-filters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django.template.Custom-tags-and-filters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django.template.Humanization" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django.template.TemplateAPI" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/Django.template.language" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy-django/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_app/scrapy_app/spiders/icrawl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_app/scrapy_app/spiders/quotes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrapy_app/scrapy_app/spiders/stack_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/adminpages/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/adminpages/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adminpages/basecontent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adminpages/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/adminpages/yourhome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack/.idea/libraries/R_User_Library.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack/stack/spiders/stack_spider.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../stack/stack/spiders/triethocduongpho.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/adminpages/save.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/adminpages/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adminpages/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/adminpages/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adminpages/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/adminpages/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/adminpages/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Django.template" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Django.template" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/openmind/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/openmind/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/openmind/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/Flot/examples/axes-time-zones/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/Flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/Flot/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/Flot/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap-datepicker/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap-datepicker/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap-daterangepicker/example/amd/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap-daterangepicker/example/amd/require.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap/less/normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap/less/normalize.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/plugins/templates/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/plugins/templates/templates/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/datatables.net/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/datatables.net/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/fullcalendar/dist/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/ion.rangeSlider/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/ion.rangeSlider/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-knob/js/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-knob/js/jquery.knob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/datepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/effect-explode.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/effect-explode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery-ui/ui/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/dist/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/src/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jquery/src/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jvectormap/src/multimap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jvectormap/src/multimap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/jvectormap/tests/assets/jquery-1.8.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/jvectormap/tests/assets/jquery-1.8.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/select2/tests/vendor/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/select2/tests/vendor/jquery-1.7.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/bower_components/select2/vendor/jquery-2.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/bower_components/select2/vendor/jquery-2.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/dist/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/dist/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/dist/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/dist/js/adminlte.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/dist/js/adminlte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/dist/js/adminlte.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/dist/js/adminlte.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/dist/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/dist/js/pages/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/openmind.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/adminpages/plugins/jQueryUI/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/Flot/examples/axes-time-zones/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/Flot/examples/axes-time-zones/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/Flot/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/Flot/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-datepicker/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/bootstrap-datepicker/Gruntfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/bootstrap-daterangepicker/example/amd/require.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/bootstrap-daterangepicker/example/amd/require.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/bootstrap/less/normalize.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/bootstrap/less/scaffolding.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/ckeditor/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/ckeditor/ckeditor.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/ckeditor/plugins/templates/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/ckeditor/plugins/templates/templates/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/ckeditor/plugins/wsc/dialogs/wsc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/datatables.net/js/jquery.dataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/datatables.net/js/jquery.dataTables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/font-awesome/less/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/fullcalendar/dist/fullcalendar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/ion.rangeSlider/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/ion.rangeSlider/css/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-knob/js/jquery.knob.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-knob/js/jquery.knob.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/jquery-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/accordion.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/accordion.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/datepicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/datepicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/dialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/dialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/effect-explode.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/effect-explode.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery-ui/ui/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/event.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jvectormap/src/multimap.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jvectormap/src/multimap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/jvectormap/tests/assets/jquery-1.8.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/jvectormap/tests/assets/jquery-1.8.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/select2/tests/vendor/jquery-1.7.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/select2/tests/vendor/jquery-1.7.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/bower_components/select2/vendor/jquery-2.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/bower_components/select2/vendor/jquery-2.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/css/AdminLTE.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/AdminLTE.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-without-plugins.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/css/alt/AdminLTE-without-plugins.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/adminlte.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/adminlte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/adminlte.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/adminlte.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/dist/js/pages/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/dist/js/pages/dashboard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/plugins/bootstrap-slider/bootstrap-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/plugins/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/plugins/jQueryUI/jquery-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/plugins/jQueryUI/jquery-ui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/adminpages/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/adminpages/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/adminpages/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/adminpages/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/adminpages/draft.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/draft.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminpages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/adminpages/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/adminpages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/adminpages/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scrapy/docs/Scrapy.Selector" beforeDir="false" afterPath="$PROJECT_DIR$/../scrapy/docs/Scrapy.Selector" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack/stack/spiders/stack_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stack/stack/spiders/stack_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stack/stack/spiders/triethocduongpho.py" beforeDir="false" afterPath="$PROJECT_DIR$/../stack/stack/spiders/triethocduongpho.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,47 +80,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/adminpages/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/adminpages/home.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/adminpages/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/adminpages/basecontent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/openmind/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+            <state relative-caret-position="390">
+              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -219,14 +92,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/adminpages/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/adminpages/homepage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="495">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -283,16 +153,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/books/Scrapy.py" />
-        <option value="$PROJECT_DIR$/books/models.py" />
-        <option value="$PROJECT_DIR$/apps/adminpage/views.py" />
         <option value="$PROJECT_DIR$/apps/adminpage/admin.py" />
         <option value="$PROJECT_DIR$/apps/adminpage/apps.py" />
         <option value="$PROJECT_DIR$/templates/adminpage/draft.html" />
         <option value="$PROJECT_DIR$/static/adminpages/openmind.css" />
         <option value="$PROJECT_DIR$/templates/adminpage/drafthomepage.html" />
         <option value="$PROJECT_DIR$/templates/adminpage/homepage.html" />
-        <option value="$PROJECT_DIR$/apps/adminpages/forms.py" />
         <option value="$PROJECT_DIR$/templates/adminpage/home.html" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
         <option value="$PROJECT_DIR$/templates/adminpage/base.html" />
@@ -325,23 +191,27 @@
         <option value="$PROJECT_DIR$/scrapy_app/scrapy_app/spiders/quotes.py" />
         <option value="$PROJECT_DIR$/scrapy_app/scrapy_app/spiders/stack_spider.py" />
         <option value="$PROJECT_DIR$/scrapy_app/scrapy_app/settings.py" />
-        <option value="$PROJECT_DIR$/templates/adminpages/draft.html" />
-        <option value="$PROJECT_DIR$/templates/adminpages/login.html" />
         <option value="$PROJECT_DIR$/static/adminpages/base.css" />
-        <option value="$PROJECT_DIR$/openmind/urls.py" />
-        <option value="$PROJECT_DIR$/apps/adminpages/views.py" />
-        <option value="$PROJECT_DIR$/static/adminpages/style.css" />
         <option value="$PROJECT_DIR$/templates/adminpages/basecontent.html" />
+        <option value="$PROJECT_DIR$/static/adminpages/style.css" />
+        <option value="$PROJECT_DIR$/templates/adminpages/draft.html" />
         <option value="$PROJECT_DIR$/static/adminpages/home.css" />
         <option value="$PROJECT_DIR$/templates/adminpages/base.html" />
+        <option value="$PROJECT_DIR$/apps/adminpages/forms.py" />
+        <option value="$PROJECT_DIR$/templates/adminpages/save.html" />
+        <option value="$PROJECT_DIR$/templates/adminpages/login.html" />
+        <option value="$PROJECT_DIR$/apps/adminpages/admin.py" />
+        <option value="$PROJECT_DIR$/openmind/urls.py" />
+        <option value="$PROJECT_DIR$/apps/adminpages/views.py" />
+        <option value="$PROJECT_DIR$/templates/adminpages/homepage.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="67" />
-    <option name="y" value="114" />
-    <option name="width" value="917" />
-    <option name="height" value="789" />
+    <option name="y" value="25" />
+    <option name="width" value="926" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -360,29 +230,23 @@
             <path>
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
               <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
               <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
-              <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="adminpages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
               <item name="openmind" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="openmind" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
               <item name="openmind" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="adminpages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="openmind" type="b2602c69:ProjectViewProjectNode" />
@@ -398,7 +262,7 @@
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/tamdongtam/langoo/langoo-server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -481,12 +345,15 @@
       <workItem from="1552528742506" duration="11456000" />
       <workItem from="1552960449924" duration="7725000" />
       <workItem from="1553045961569" duration="5000" />
-      <workItem from="1553066802341" duration="11120000" />
+      <workItem from="1553066802341" duration="12291000" />
+      <workItem from="1553132361575" duration="377000" />
+      <workItem from="1553143159302" duration="11532000" />
+      <workItem from="1553218197264" duration="532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158800000" />
+    <option name="totallyTimeSpent" value="172412000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -498,10 +365,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="114" width="917" height="789" extended-state="0" />
+    <frame x="67" y="25" width="926" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.33295062" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.22613636" />
       <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.1317919" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -514,8 +381,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32900432" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5025853" side_tool="true" weight="0.26298702" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49741468" visible="true" weight="0.36818182" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5033113" side_tool="true" weight="0.26241902" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49668875" visible="true" weight="0.26298702" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32900432" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="13" weight="0.32937366" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.32937366" />
@@ -558,53 +425,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.pyenv/versions/3.6.8/envs/website/lib/python3.6/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="63" column="4" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/books/homosapiens.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/appsnew/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/appsnew/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/appsnew/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Django.template.language">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Django.template.Built-in-tags-and-filters">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Django.template.Humanization">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/Django.template.TemplateAPI">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -647,20 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-59">
           <caret line="119" column="4" selection-start-line="119" selection-start-column="4" selection-end-line="119" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/adminpages/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openmind/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
@@ -786,9 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminpages/draft.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpages/map.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -818,13 +621,6 @@
     <entry file="file://$PROJECT_DIR$/static/startbootstrap-blog-post-gh-pages/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminpages/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/adminpages/dist/css/AdminLTE.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -839,65 +635,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminpages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/adminpages/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
+        <state>
           <caret column="68" selection-start-column="68" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openmind/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/basecontent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        <state>
+          <caret column="32" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/adminpages/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="51" column="8" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="23" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/draft.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/save.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/adminpages/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/adminpages/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/adminpages/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/adminpages/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/books/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/appsnew/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="27" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/adminpages/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openmind/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="41" column="29" lean-forward="true" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/adminpages/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="80" column="43" selection-start-line="80" selection-start-column="43" selection-end-line="80" selection-end-column="43" />
+        <state relative-caret-position="210">
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminpages/basecontent.html">
+    <entry file="file://$PROJECT_DIR$/openmind/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/adminpages/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+        <state relative-caret-position="390">
+          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/adminpages/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="80" column="21" lean-forward="true" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state relative-caret-position="95">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/adminpages/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/adminpages/homepage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="63" column="26" lean-forward="true" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+        <state relative-caret-position="495">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
         </state>
       </provider>
     </entry>
